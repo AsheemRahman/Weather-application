@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Your description goes here">
+	<meta name="keywords" content="one, two, three">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Weather App</title>
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="header">
+		<h1>Weather Application</h1class>
+	</div>
+	<div class="container">
+		<h1>Check the Current Weather</h1>
+		<input type="text" id="location" placeholder="Enter a location">
+		<button id="searchButton">SEARCH</button>
+		<div class="weather-info">
+			<div class="weather-icon">
+				<img id="weatherIcon" alt="Weather Icon" style="display: none;">
+				<p id="weatherText" style="display: none;"></p>
+			</div>
+			<h2 id="currentTemp"></h2>
+			<p id="feelsLike"></p>
+			<p id="humidity"></p>
+			<p id="state"></p>
+			<p id="country"></p>
+			<p id="forecastedTime"></p>
+
+			<button id="showExtendedInfo" style="display: none;">Show more Weather Information</button>
+
+			<div id="extendedWeatherInfo" style="display: none;">
+				<p id="latitude"></p>
+				<p id="longitude"></p>
+				<p id="windSpeed"></p>
+				<p id="uvIndex"></p>
+				<p id="visibility"></p>
+				<p id="precipitation"></p>
+				<p id="cloudCoverage"></p>
+			</div>
+		</div>
+		<button id="resetButton" style="display: none;">RESET</button>
+	</div>
+
+	<script type="text/javascript" src="js/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
