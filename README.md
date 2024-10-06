@@ -17,11 +17,8 @@ This is a simple weather application built using HTML, CSS, and JavaScript. The 
 - Display temperature, weather condition, humidity, and wind speed
 - Responsive design for mobile and desktop screens
 
-## Screenshots
-![Screenshot](path-to-your-screenshot.png)
-
 ## Live Demo
-[Click here](https://your-live-demo-link.com) to see the live demo.
+[Click here](https://asheemrahman.github.io/Weather-application/) to see the live demo.
 
 ## Technologies Used
 - **HTML5**: Structure of the web page
